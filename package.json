@@ -1,0 +1,26 @@
+{
+  "name": "neft64_web_graph",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "core-js": "^3.8.3",
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0",
+    "luxy.js": "^0.1.0",
+    "nuxt": "^2.14.12",
+    "vue-scrollto": "^2.20.0"
+  },
+  "devDependencies": {
+    "fast-sass-loader": "^2.0.0",
+    "node-sass": "^5.0.0",
+    "ress": "^4.0.0",
+    "sass-loader": "^10.1.1"
+  }
+}
