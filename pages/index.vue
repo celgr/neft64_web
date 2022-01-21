@@ -180,7 +180,7 @@
                 <div class="footer__logo">
                     <img src="https://images.microcms-assets.io/assets/41e28d6a63a641ada3a04f0904512c63/e059d4a1852143e0aecbf40ca3b7af8d/neft_logo.svg" alt="logo">
                 </div>   
-                <p>2021 © Neft64 All Rights Reserved</p>
+                <p>2022 © Neft64 All Rights Reserved</p>
             </div>
         </div>  
     </div>
