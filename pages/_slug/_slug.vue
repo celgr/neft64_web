@@ -22,7 +22,7 @@ export default {
       }
     );
 
-    return { post};
+    return { post };
   }
 };
 </script>

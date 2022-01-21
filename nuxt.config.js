@@ -18,11 +18,11 @@ export default {
             { hid: 'og:url', property: 'og:url', content: 'https://neft64.com' },
             { hid: 'og:title', property: 'og:title', content: 'Neft64' },
             { hid: 'og:description', property: 'og:description', content: 'Neft64 is japanese internet video label.' },
-            { hid: 'og:image', property: 'og:image', content: 'https://images.microcms-assets.io/assets/41e28d6a63a641ada3a04f0904512c63/2906c3c638ae4b42b108a9356e017a8a/neft64_ogp.png' },
+            { hid: 'og:image', property: 'og:image', content: 'https://media.graphcms.com/neoW9YETzC3dvlklXuA0?_ga=2.94179349.949560194.1642761925-527423709.1640347469' },
             { name: 'twitter:card', content: 'summary_large_image' },　//twitterの画像サイズ
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: 'https://images.microcms-assets.io/assets/41e28d6a63a641ada3a04f0904512c63/3597aa82ae89494bb195f757c27c017c/favicon.png' }
+            { rel: 'icon', type: 'image/x-icon', href: 'https://media.graphcms.com/NtkOSkeQC2X41cjJTu27?_ga=2.63142567.949560194.1642761925-527423709.1640347469' }
         ],
         script: [
             { src: '/js/luxy.js', defer: true },
