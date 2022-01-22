@@ -4,7 +4,7 @@
             <ul>
                 <li><nuxt-link v-scroll-to="'#top'" to>Neft64</nuxt-link></li>
                 <li><nuxt-link v-scroll-to="'#release'" to>Release</nuxt-link></li>
-                <li><nuxt-link v-scroll-to="'#artist'" to>Artist</nuxt-link></li>
+                <!--<li><nuxt-link v-scroll-to="'#artist'" to>Artist</nuxt-link></li>-->
                 <li><nuxt-link class="submit-link" v-scroll-to="'#contact'" to>CONTACT / SUBMIT DEMO</nuxt-link></li>
             </ul>
         </div>
