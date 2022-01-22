@@ -105,6 +105,7 @@
                 -->
             </div>
 
+            <!--
             <div id="artist" class="main__artists">
                 <div class="artists__bg">
                     <div class="luxy-el" data-horizontal="1"  data-speed-x="-5">
@@ -133,12 +134,12 @@
                     </div>
                 </div>
                 
-                <!--
                 <div class="artists__view-all">
                     <nuxt-link to="/artist">View All</nuxt-link>
                 </div>
-                -->
             </div>
+            
+            -->
 
             <div id="contact" class="main__contact">
                 <div class="main__contact__title">
