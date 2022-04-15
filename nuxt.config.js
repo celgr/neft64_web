@@ -49,6 +49,7 @@ export default {
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
+        'nuxt-webfontloader'
     ],
 
     // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -57,5 +58,11 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
-    }
+    },
+
+    webfontloader: {
+        google: {
+          families: ['Montserrat:300,400,500,600', 'Noto+Sans+JP:300,400,500,600'] 
+        }
+    },
 }

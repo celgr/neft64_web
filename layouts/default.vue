@@ -267,8 +267,7 @@ span {
                     background-color: transparent;
                     color: var(--color-black);
                 } 
-            }
-            
+            }  
         }
     }
 
@@ -608,7 +607,6 @@ span {
                 color: var(--color-white);
             }
         }
-
         .submit-video__detail, .other-inquiries__detail {
             margin-top: 5vh;
 
