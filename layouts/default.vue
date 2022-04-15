@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
     font-family: "Montserrat", "Noto Sans JP", sans-serif;
     font-weight: 500;
     font-style: normal;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
 
     color: var(--color-black);
 }
