@@ -40,7 +40,7 @@
                         </div>
                     </div>
 
-                    <div class="top__bg">
+                    <div id="topbg" class="top__bg">
                         <div class="luxy-el" data-horizontal="1" data-speed-x="10">
                             <p>Neft64 is japanese</p> 
                         </div>
@@ -74,7 +74,7 @@
                 <div class="neft64">
                     <p>Neft64</p>
                 </div>
-                <div class="release__bg">
+                <div id="relbg" class="release__bg">
                     <div class="luxy-el" data-horizontal="1" data-speed-x="-5">
                         <p>Release</p> 
                     </div>
@@ -250,7 +250,10 @@ export default {
             navigator.userAgent.indexOf('iPod') > 0 ||
             navigator.userAgent.indexOf('Android') > 0 )
         {
-            
+            var topbg = document.getElementById('topbg');
+            var relbg = document.getElementById('relbg');
+            topbg.parentNode.removeChild(topbg);
+            relbg.parentNode.removeChild(relbg);
         } else {
             luxy.init();
         }
