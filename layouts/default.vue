@@ -282,6 +282,8 @@ span {
         div {
             white-space: nowrap;
             display: block;
+            overflow:hidden;
+
         }
 
         p {
@@ -329,6 +331,8 @@ span {
         div {
             white-space: nowrap;
             display: block;
+            overflow:hidden;
+
         }
 
         p {

@@ -250,10 +250,7 @@ export default {
             navigator.userAgent.indexOf('iPod') > 0 ||
             navigator.userAgent.indexOf('Android') > 0 )
         {
-            var topbg = document.getElementsByClassName('top__bg');
-            var relbg = document.getElementsByClassName('release__bg');
-            topbg.style.display = "none !important";
-            relbg.style.display = "none !important";
+            
         } else {
             luxy.init();
         }
