@@ -962,7 +962,7 @@ span {
 
 @media screen and (max-width: 600px) {
     .top {
-        margin: 20vh 0;
+        margin: 15vh 0;
         padding: 0 6vw;
     }
 }
