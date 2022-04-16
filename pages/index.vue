@@ -5,7 +5,7 @@
                 <li><nuxt-link v-scroll-to="'#top'" to>Neft64</nuxt-link></li>
                 <li><nuxt-link v-scroll-to="'#release'" to>Release</nuxt-link></li>
                 <!--<li><nuxt-link v-scroll-to="'#artist'" to>Artist</nuxt-link></li>-->
-                <li><nuxt-link class="submit-link" v-scroll-to="'#contact'" to>CONTACT / SUBMIT DEMO</nuxt-link></li>
+                <li><nuxt-link class="submit-link" v-scroll-to="'#contact'" to>SUBMIT DEMO / CONTACT</nuxt-link></li>
             </ul>
         </div>
 
@@ -244,7 +244,17 @@ export default {
     },
 
     mounted(){
-        luxy.init();
+        if (
+            navigator.userAgent.indexOf('iPhone') > 0 ||
+            navigator.userAgent.indexOf('iPad') > 0 ||
+            navigator.userAgent.indexOf('iPod') > 0 ||
+            navigator.userAgent.indexOf('Android') > 0 )
+        {
+            var bg = document.querySelectorAll('.top__bg, .release__bg,');
+            bg.style.display = "none";
+        } else {
+            luxy.init();
+        }
     }
 }
 
