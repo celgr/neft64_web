@@ -250,8 +250,9 @@ export default {
             navigator.userAgent.indexOf('iPod') > 0 ||
             navigator.userAgent.indexOf('Android') > 0 )
         {
-            var bg = document.querySelectorAll('.top__bg, .release__bg,');
-            bg.style.display = "none";
+            
+            var luxyel = document.getElementsByClassName('luxy-el');
+            luxyel.style.display = "none";
         } else {
             luxy.init();
         }
