@@ -31,6 +31,7 @@
 body {
     position: relative;
     margin: 0 auto;
+    width: 100%;
 
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -282,8 +283,6 @@ span {
         div {
             white-space: nowrap;
             display: block;
-            overflow:hidden;
-
         }
 
         p {
@@ -331,8 +330,6 @@ span {
         div {
             white-space: nowrap;
             display: block;
-            overflow:hidden;
-
         }
 
         p {
