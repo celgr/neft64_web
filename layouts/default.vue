@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
     font-weight: 500;
     font-style: normal;
     letter-spacing: -0.02em;
+    font-feature-settings: "palt";
 
     color: var(--color-black);
 }
