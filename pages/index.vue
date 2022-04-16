@@ -251,8 +251,10 @@ export default {
             navigator.userAgent.indexOf('Android') > 0 )
         {
             
-            var luxyel = document.getElementsByClassName('luxy-el');
-            luxyel.style.display = "none";
+            var topbg = document.getElementsByClassName('top__bg');
+            var relbg = document.getElementsByClassName('release__bg');
+            topbg.style.display = "none";
+            relbg.style.display = "none";
         } else {
             luxy.init();
         }
